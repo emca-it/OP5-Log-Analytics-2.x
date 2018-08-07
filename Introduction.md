@@ -15,8 +15,7 @@ Introduction
 > ensures the security of stored information, verification of users,
 > data correlation and visualization, alerting and reporting.
 
-![](./media/media/image2.png){width="6.531944444444444in"
-height="3.638888888888889in"}
+![](./media/media/image2.png)
 
 > OP5 Log Analytics project was created to centralize events of all IT
 > areas in the organization. We focused on creating a tool that
