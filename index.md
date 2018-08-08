@@ -27,7 +27,7 @@ Table of contents
 
 [[04.07.02] [Views of the visualization]](04.07.02-Views_of_the_visualization.md)
 
-[[04.07.03] [Edit visualization and saving]](04.07.03-Edit_visualization_and_saving.md)
+[[04.07.03] [Edit visualization and saving]](04.07.03-Edit_ visualization_and_saving.md)
 
 [[04.08] [Dashboards]](04.08-Dashboards.md)
 
