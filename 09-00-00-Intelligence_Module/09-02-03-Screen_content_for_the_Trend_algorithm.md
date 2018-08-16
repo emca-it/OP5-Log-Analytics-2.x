@@ -1,6 +1,6 @@
 ### Screen content for the Trend algorithm
 
-![](./media/media/image68.png)
+![](/./media/media/image68.png)
 
 Description of controls:
 

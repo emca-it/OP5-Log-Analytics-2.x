@@ -7,7 +7,7 @@ with the possibility of managing processes.
 Each user can see only the process they run. The user in the role of
 Intelligence sees all running processes.
 
-![](./media/media/image75.png)
+![](/./media/media/image75.png)
 
 Description of controls:
 
@@ -29,9 +29,9 @@ Description of controls:
     > hyperparameters
 
 -   After completing the learning activity or after the user has
-    > interrupted it, the "Delete" button appears int "Action"field.
-    > This button allows you to permanently delete the learning results
-    > of a specific network.
+    interrupted it, the "Delete" button appears int "Action"field.
+    This button allows you to permanently delete the learning results
+    of a specific network.
 
 
-![](./media/media/image76.png)
+![](/./media/media/image76.png)

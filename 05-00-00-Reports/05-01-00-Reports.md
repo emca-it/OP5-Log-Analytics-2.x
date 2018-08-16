@@ -9,4 +9,4 @@ To go to the reports windows, select to tiles icon from the main menu
 bar, and then go to the „Reports" icon (To go back, go to the „Search"
 icon).
 
-![](./media/media/image38.png)
+![](/./media/media/image38.png)

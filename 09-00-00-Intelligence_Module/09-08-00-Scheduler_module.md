@@ -12,7 +12,7 @@ To go to the Scheduler window, select the tile icon from the main menu
 bar and then go to the „Scheduler" icon (To go back, go to the
 „Search" icon)
 
-![](./media/media/image38.png)
+![](/./media/media/image38.png)
 
 The page with three tabs will be displayed: Creating new tasks in the
 „Create Scheduler Job", managing tasks in the „Job List" and checking
@@ -31,7 +31,7 @@ fields:
    complex commands related to the Intelligence module. In the task
    management window, we can activate /deactivate, delete and update
    the task by clicking on the selected icon for a given task
-   ![](./media/media/image63.png)
+   ![](/./media/media/image63.png)
 
 In the task status windows you can check the current status of the
 task: if it activated, when it started and when it ended, how long it

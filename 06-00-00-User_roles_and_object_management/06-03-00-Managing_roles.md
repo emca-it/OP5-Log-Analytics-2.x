@@ -5,7 +5,7 @@ Go to the next tab which is Create Role. In this tab, we can define a
 new role with permissions that we assign to a pattern or several index
 patterns.
 
-![](./media/media/image54.png)
+![](/./media/media/image54.png)
 
 In our example, I use the syslog2\* index pattern. We give this name
 in the Paths field. We can provide one or more index patterns, their
@@ -27,7 +27,7 @@ In the role field, enter the unique name of the role. Add a new role
 to the Submit button. To see if a new role has been added, go to the
 net Role List tab.
 
-![](./media/media/image55.png)
+![](/./media/media/image55.png)
 
 As we can see, the new role has been added to the list. With the
 Delete button we have the option of deleting it, while under the

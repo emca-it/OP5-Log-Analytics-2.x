@@ -1,18 +1,18 @@
 AI Rules List
 -------------
 
-![](./media/media/image70.png)
+![](/./media/media/image70.png)
 
 Column description:
 
 -   Status:
 
-    -   ![](./media/media/image71.png)- the process is being processed (the pid of
+    -   ![](/./media/media/image71.png)- the process is being processed (the pid of
         the process is in brackets)
 
-    -   ![](./media/media/image72.png) - process completed correctly
+    -   ![](/./media/media/image72.png) - process completed correctly
 
-    -   ![](./media/media/image73.png) - the process ended with an
+    -   ![](/./media/media/image73.png) - the process ended with an
         error
 
 

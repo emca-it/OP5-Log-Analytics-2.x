@@ -5,7 +5,7 @@ At the first installation of the OP5 Log Analytics application, apart
 from the administrative account (logserver), special applications are
 created in the application: alert, intelligence and scheduler.
 
-![](./media/media/image62.png)
+![](/./media/media/image62.png)
 
 **Alert Account**-- this account is connected to the Alert Module
 which is designed to track events written to the index for the

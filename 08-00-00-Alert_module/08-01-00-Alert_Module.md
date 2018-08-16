@@ -16,7 +16,7 @@ To go to the alert windows, select the tile icon from the main menu
 bar and then go to the „Alerts" icon (To go back, go to the „Search"
 icon).
 
-![](./media/media/image38.png)
+![](/./media/media/image38.png)
 
 We will display a page with tree tabs: Create new alerts in „Create
 alert rule", manage alerts in „Alert rules List" and check alert
@@ -46,7 +46,7 @@ met (sending an email message or executing a command)
 
 In the alert management window, you can activate / deactivate, delete
 and update alerts by clicking on the selected icon with the given
-alert. ![](./media/media/image63.png).
+alert. ![](/./media/media/image63.png).
 
 In the alert status window, you can check the current alert status: if
 it activated, when it started and when it ended, how long it lasted,

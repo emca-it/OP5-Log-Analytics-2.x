@@ -1,7 +1,7 @@
 License (License Info)
 -----------------------
 
-![](./media/media/image61.png)
+![](/./media/media/image61.png)
 
 The License Information tab consists of several non-editable
 information fields.

@@ -1,6 +1,6 @@
 ### Screen content for the neural network (MLP) algorithm
 
-![](./media/media/image69.png)
+![](/./media/media/image69.png)
 
 Descriptions of controls:
 
@@ -31,7 +31,7 @@ Descriptions of controls:
 -   Scheduler -- a tag if the rule should be run according to the plan
     or the scheduler. If selected, additional fields will appear:
 
-![](./media/media/image67.png)
+![](/./media/media/image67.png)
 
 -   Prediction cycle -- plan definition for the scheduler, i.e. the
      cycle in which the prediction rule is run (e.g. once a day, every

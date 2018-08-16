@@ -1,7 +1,7 @@
 Settings
 --------
 
-![](./media/media/image60.png)
+![](/./media/media/image60.png)
 
 The Settings tab is used to set the audit on different activates /
 events and consists of several fields:

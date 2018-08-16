@@ -25,11 +25,11 @@ To go to the window of the Intelligence module, select the tile icon
 from the main meu bar and then go to the „Intelligence" icon (To go
 back, go to the „Search" icon).
 
-![](./media/media/image38.png){width="5.572222222222222in"
+![](/./media/media/image38.png){width="5.572222222222222in"
 height="1.3841262029746282in"}
 
 There are 4 screens available in the
-module:![](./media/media/image64.png)
+module:![](/./media/media/image64.png)
 
 -   Create AI Rule -- the screen allows you to create artificial
      intelligence rules and run them in scheduler mode or immediately

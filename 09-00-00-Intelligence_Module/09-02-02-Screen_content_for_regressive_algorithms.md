@@ -1,6 +1,6 @@
 ### Screen content for regressive algorithms
 
-![](./media/media/image66.png)
+![](/./media/media/image66.png)
 
 Description of controls:
 
@@ -39,19 +39,19 @@ Description of controls:
 -   Scheduler -- a tag if the rule should be run according to the plan
     for the scheduler. If selected, additional fields will appear;
 
-![](./media/media/image67.png)
+![](/./media/media/image67.png)
 
 -   Prediction cycle -- plan definition for the scheduler, i.e. the
-    > cycle in which the prediction rule is run (e.g. once a day, every
-    > hour, once a week). In the field, enter the command that complies
-    > with the cron standard. Enable -- whether to immediately launch
-    > the scheduler plan or save only the definition
+    cycle in which the prediction rule is run (e.g. once a day, every
+    hour, once a week). In the field, enter the command that complies
+    with the cron standard. Enable -- whether to immediately launch
+    the scheduler plan or save only the definition
 
 <!-- -->
 
 -   Role -- only users with the roles selected here and the
-    > administrator will be able to run the defend AI rules The selected
-    > „time frame" also affects the prediction period. If we choose
-    > "time frame = monthly", we will be able to predict a one month
-    > ahead from the moment of prediction (according to the "prediction
-    > cycle" value)
+    administrator will be able to run the defend AI rules The selected
+    „time frame" also affects the prediction period. If we choose
+    "time frame = monthly", we will be able to predict a one month
+    ahead from the moment of prediction (according to the "prediction
+    cycle" value)

@@ -7,13 +7,13 @@ for example when you want to see only the current number of products
 sold, it is best to choose „Metric", which presents one, updated
 number
 
-![](./media/media/image27.png)
+![](/./media/media/image27.png)
 
 However, if we would like to see user activity trends on pages in
 different hour and days, a better choice will be „Area chart", which
 displays a chart with time division.
 
-![](./media/media/image28.png)
+![](/./media/media/image28.png)
 
 The „Markdown widget" views is used to place text e.g. information
 about the dashboard, explanations and instruction on how to navigate.

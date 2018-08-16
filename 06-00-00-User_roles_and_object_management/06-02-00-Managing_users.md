@@ -5,7 +5,7 @@ After clicking the Config icon, we immediately enter the
 administration panel where the first tab is to create a new user
 (**Create User**).
 
-![](./media/media/image52.png)
+![](/./media/media/image52.png)
 
 In the wizard that opens for us, we have the possibility to enter a
 unique username (Username field), password for the user (field
@@ -27,7 +27,7 @@ User's modification and deletion, (User List)
 Once we have created users, we can display their list. We do it in
 next tab (**User List**).
 
-![](./media/media/image53.png)
+![](/./media/media/image53.png)
 
 In this view, we get a list of user account with assigned roles and we
 have two buttons: Delete and Update. The first of these is ability to
