@@ -9,17 +9,14 @@ respective layout in a binary form, called a data index. The Index is
 kept on Elasticsearch nodes, implementing the appropriate assumptions
 from the configuration, such as:
 
-Replication index between nodes,
-
-Distribution index between nodes.
+- Replication index between nodes,
+- Distribution index between nodes.
 
 The Elasticsearch environment consists of nodes:
 
--   Data node -- responsible for storing documents in indexes,
-
--   Master node -- responsible for the supervisions of nodes,
-
--   Client node -- responsible for cooperation with the client.
+- Data node - responsible for storing documents in indexes,
+- Master node - responsible for the supervisions of nodes,
+- Client node - responsible for cooperation with the client.
 
 Data, Master and Client elements are found even in the smallest
 Elasticsearch installations, therefore often the environment is
@@ -36,7 +33,7 @@ created every day. This practice, however, is conventional and every
 index can have its own rotation convention, name convention,
 construction scheme and its own set of other features. As a result of
 passing document through the Logstash engine, each entry receive a
-data field, which allow to you to work witch data in relations to
+data field, which allow to work witch data in relations to
 time.
 
 The Indexes are built with elementary part called shards. It is good
