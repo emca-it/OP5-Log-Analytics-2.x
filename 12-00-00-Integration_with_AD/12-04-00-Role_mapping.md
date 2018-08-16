@@ -38,7 +38,7 @@ role-mappings.yml and existing in AD any container.
 Below a screenshot of the console on which are marked accounts that
 were created by uesrs logging in from AD
 
-![](./media/media/image85.png)
+![](/./media/media/image85.png)
 
 If you map roles with from several domains, for example
 dev.examloe1.com, dev.example2.com then in User List we will see which
