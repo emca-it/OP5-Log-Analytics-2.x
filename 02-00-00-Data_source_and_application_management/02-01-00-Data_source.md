@@ -1,7 +1,7 @@
 Where does the data come from?
 ==============================
 
-OP5 Log Analytics is a solution enabling effective data processing
+OP5 Log Analytics is a solution allowing effective data processing
 from the IT environment that exists in the organization.
 
 The Elsasticsearch engine allows building a database in witch large
@@ -14,13 +14,13 @@ enabling the module to quick interpret data and parse it.
 
 Below is an example of several of the many available Logstash plugins:
 
-**exec** -- receive output of the shell function as an event;
+**exec** - receive output of the shell function as an event;
 
-**imap** -- read email from IMAP servers;
+**imap** - read email from IMAP servers;
 
-**jdbc** -- create events based on JDC data;
+**jdbc** - create events based on JDC data;
 
-**jms** -- create events from Jms broker;
+**jms** - create events from Jms broker;
 
 Both Elasticsearch and Logstash are free Open-Source solutions.
 
