@@ -3,7 +3,7 @@ Introduction
 
 OP5 Log Analytics is innovation solution allowing for centralize IT
 systems events. It allows for an immediately review, analyze and
-reporting of system logs -- the amount of data does not matter. OP5
+reporting of system logs - the amount of data does not matter. OP5
 Log Analytics is a response to the huge demand for storage and
 analysis of the large amounts of data from IT systems. OP5 Log
 Analytics is innovation solution that responds to the need of
@@ -15,7 +15,7 @@ capabilities. The System has been enriched of functionality that
 ensures the security of stored information, verification of users,
 data correlation and visualization, alerting and reporting.
 
-![](media/media/image2.png) \
+![](./media/media/image2.png) \
 
 OP5 Log Analytics project was created to centralize events of all IT
 areas in the organization. We focused on creating a tool that
