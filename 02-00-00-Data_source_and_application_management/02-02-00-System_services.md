@@ -8,11 +8,11 @@ For proper operation OP5 Log Alanytics requires starting the following system se
 
 	`systemctl start elasticsearch.service`
 
-![](/./media/media/image86.PNG)
-
   we can check its status with a command:
   	
 	`systemctl status elasticsearch.service`
+
+![](/./media/media/image86.PNG)
 
 - kibana.service - 
   we can run it with a command:
