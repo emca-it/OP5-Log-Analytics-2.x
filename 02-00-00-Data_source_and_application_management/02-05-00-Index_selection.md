@@ -1,9 +1,9 @@
 Index selection
 ---------------
 
-When first index has already been selected, the next time you log into
-OP5 Log Analytics we will going to „Discover" tab from main menu where
-all searches and operation on raw data from indexes are performed.
+After login into OP5 Log Analytics you will going to „Discover" tab,
+where you can interactively explore your data. You have access to 
+every document in every index that matches the selected index patterns.
 
 If you want to change selected index, click on the black field with
 the name of the current object in the left panel. Clicking on the
