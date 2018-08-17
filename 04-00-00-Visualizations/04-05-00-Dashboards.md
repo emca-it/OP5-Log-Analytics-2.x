@@ -1,14 +1,15 @@
 Dashboards
 ----------
 
-Dashboard is a collection of several visualizations on one card.
+Dashboard is a collection of several visualizations or searches.
 Depending on how it is build and what visualization it contains, it
-can be designed for different teams e.g.: SOC, which is responsible
-for detecting failures or threats in the company; business, which
-thanks to the listings can determine the popularity of products and
-define the strategy of future sales and promotions; managers and
-directors who may immediately have access to information about the
-performance units or branches. Creating and saving
+can be designed for different teams e.g.: 
+- SOC - which is responsible for detecting failures or threats in 
+the company; 
+- business - which thanks to the listings can determine the popularity
+of products and define the strategy of future sales and promotions; 
+- managers and directors - who may immediately have access to information
+about the performance units or branches. 
 
 To create a dashboard from previously saved visualization and queries,
 go to the „Dashboard" tab in the main menu bar. When you open it, a
@@ -25,8 +26,9 @@ with icon ![](//////./media/media/image34.png) (the windows can be re-opened by 
 
 Elements of the dashboard can be enlarged arbitrarily (by clicking on
 the right bottom corner of object and dragging the border) and moving
-(by clicking on the title bar of the object and moving it). To save a
-dashboard, click on the icon
+(by clicking on the title bar of the object and moving it). 
+
+To save a dashboard, click on the icon
 ![](/./media/media/image16.png) to the right of the query bar and give
 it a name. To load the dashboard go to the "Settings" tab in the main
 menu at the top of the page, then "Object" from the submenu and
