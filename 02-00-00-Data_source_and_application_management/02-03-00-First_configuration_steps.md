@@ -14,9 +14,9 @@ To install and configure OP5 Log Analytics on the CentOS Linux system you should
 
 During instalation you will be ask about following tasks:
 - add firewall exeption on ports 22(ssh), 5044, 5514 (Logstash), 5601 (Kibana), 9200 (Elastisearch), 9300 (ES croos-JVM);
-- instalation of Java environment (Open-JDK), if you use your own Java environment - answer "N";
+- installation of Java environment (Open-JDK), if you use your own Java environment - answer "N";
 - connect to the OP5 CentOS repository, witch provides Python libraries, and some fonts;
-- instalation of Logstash application;
+- installation of Logstash application;
 - configuration of Logstash with custom OP5 Log Anaytics configuration;
 - installation of mail components for OP5 Log Analytics notification;
 - installation of Kibana, the OP5 Log Analytics GUI;
