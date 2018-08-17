@@ -18,4 +18,8 @@ Optionally you can:
          	`{ "add" : { "index" : "intelligence", "alias" : "predictive" } },`\
         	 `{ "add" : { "index" : "op5-linux", "alias" : "predictive" } }`\
      		`]}'`
-
+- enable dayily rotate alert and audit indexes:
+	`/bin/cp -rf /root/energy_logserver_stable/utils/index-rotation.sh /opt/alert/index-rotation.sh`\
+	`crontab -e`\
+	`@midnight /opt/alert/index-rotation.sh audit`\
+	`@midnight /opt/alert/index-rotation.sh alert`
