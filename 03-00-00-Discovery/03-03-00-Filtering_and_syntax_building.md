@@ -51,7 +51,7 @@ complex queries.
    fields, and the value of the field is between 500 and 599 but will
    eliminate from the result events whose status field value is exactly 505.
 
--   The above methods can be combined with each other by building even
+-   **The above methods** can be combined with each other by building even
    more complex queries. Understanding how they work and joining it, is
    the basis for effective searching and full use of OP5 Log Analytics.
    
