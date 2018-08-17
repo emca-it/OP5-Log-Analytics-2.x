@@ -37,7 +37,7 @@ Optionally you can:
 	`sudo bin/plugin install marvel-agent`\
 	`systemctl restart elasticsearch`
 
-- enable predictive funcionality in Intelligence module:
+- enable predictive functionality in Intelligence module:
 
 	`curl -XPOST 'http://localhost:9200/_aliases' -d '{`\
      		`"actions" : [`\
