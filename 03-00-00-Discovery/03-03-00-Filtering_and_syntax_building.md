@@ -12,7 +12,7 @@ interesting us. The syntax of such queries is:
 
 `<fields_name:<fields_value>`
 
-For example:
+Example:
 
 `status:500`
 
