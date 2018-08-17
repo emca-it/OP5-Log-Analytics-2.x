@@ -8,7 +8,7 @@ For proper operation OP5 Log Alanytics requires starting the following system se
 
 	`systemctl start elasticsearch`
 
-[](/./media/media/image86.png)
+[](/./media/media/image86.PNG)
 
   we can check its status with a command:
   	
@@ -23,5 +23,5 @@ For proper operation OP5 Log Alanytics requires starting the following system se
 
 	`systemctl status kibana`
 
-[](/./media/media/image87.png)
+[](/./media/media/image87.PNG)
 
