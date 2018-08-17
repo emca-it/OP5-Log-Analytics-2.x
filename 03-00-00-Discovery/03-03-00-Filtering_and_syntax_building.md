@@ -10,7 +10,7 @@ displayed, additional highlighting them with an orange background.
 Fields can be used in the similar way by defining conditions that
 interesting us. The syntax of such queries is:
 
-`<fields_name:<fields_value`
+`<fields_name:<fields_value>`
 
 For example:
 
@@ -21,9 +21,15 @@ with a value of 500.
 
 The field value does not have to be a single, specific value. For
 digital fields we can specify range in the following scheme:
-„\<fields\_name\:\[\<range\_from \ TO \<range\_to\\]", For
-example:. „status:\[500 TO 599\]". This query will return events with
-status fields that are in the range 500 to 599.
+
+`<fields_name:[<range_from TO <range_to]` 
+
+Example: 
+
+`status:[500 TO 599]`
+
+This query will return events with status fields that are in the 
+range 500 to 599.
 
 The search language used in OP5 allows to you use logical operators
 „AND", „OR" and „NOT", which are key and necessary to build more
@@ -49,9 +55,10 @@ complex queries.
 -   The above methods can be combined with each other by building even
    more complex queries. Understanding how they work and joining it, is
    the basis for effective searching and full use of OP5 Log Analytics.
+   
    Example of query built from connected logical operations:
-   **status:\[500 TO 599\] AND („access denied" OR error) NOT
-   status:505**
+   
+   `status:[500 TO 599] AND („access denied" OR error) NOT status:505`
 
 Returns in the results all events for which the value of status fields
 are in the range of 500 to 599, simultaneously contain the word
