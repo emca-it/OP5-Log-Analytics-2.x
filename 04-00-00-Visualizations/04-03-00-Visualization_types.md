@@ -1,4 +1,4 @@
-### Views of the visualization
+### Vizualization types
 
 Before the data visualization will be created, first you have to
 choose the presentation method from an existing list. Currently there
