@@ -1,8 +1,8 @@
 Saving and deleting queries
 ---------------------------
 
-When the query is ready, you can save it so that you can use it in the
-future. To do this, click on the icon
+Saving queries enables you to reload and use them in the future. To do this, 
+click on the icon
 ![](/./media/media/image16.png) to the right on the query bar. This
 will bring up a window in which we give the query a name and then
 click the button
