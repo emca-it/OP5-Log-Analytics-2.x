@@ -13,7 +13,7 @@ Saved queries can be opened by going to „Settings" from the main menu
 at the top of the page, then from the submenu select „Object" and
 finally the „Searches" tab.
 
-![](/./media/media/image19.png)
+![](/./media/media/image19_js.png)
 
 To open a saved query in the search window, you can click on the icon
 ![](/./media/media/image20.png) to the right of the query you are interested in.
