@@ -30,7 +30,7 @@ finished, we can download it (Download button) or delete (Delete
 button). The downloaded report in the form of \*.csv file can be
 opened in the browser or saved to the disk.
 
-![](/./media/media/image44.png)
+![](/./media/media/image44_js.png)
 
 In this tab, the downloaded data has a format that we can import into
 other systems for further analysis.
