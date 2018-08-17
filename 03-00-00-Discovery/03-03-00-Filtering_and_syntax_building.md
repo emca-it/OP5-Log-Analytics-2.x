@@ -9,9 +9,15 @@ displayed, additional highlighting them with an orange background.
 
 Fields can be used in the similar way by defining conditions that
 interesting us. The syntax of such queries is:
-„\<fields\_name\:\<fields\_value\", For example: „status:500". This
-query will display all events that contain the „status" fields with a
-value of 500.
+
+`<fields_name:<fields_value`
+
+For example:
+
+`status:500`
+
+This query will display all events that contain the „status" fields 
+with a value of 500.
 
 The field value does not have to be a single, specific value. For
 digital fields we can specify range in the following scheme:
