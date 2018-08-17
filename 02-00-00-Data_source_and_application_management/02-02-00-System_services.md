@@ -6,22 +6,22 @@ For proper operation OP5 Log Alanytics requires starting the following system se
 - elasticsearch.services - 
   we can run it with a command:
 
-	systemctl start elasticsearch
+	`systemctl start elasticsearch`
 
 [](/./media/media/image86.png)
 
   we can check its status with a command:
   	
-	systemctl status elasticsearch
+	`systemctl status elasticsearch`
 
 - kibana.services - 
   we can run it with a command:
  	
-	systemctl start kibana
+	`systemctl start kibana`
 
   we can check its status with a command:
 
-	systemctl status kibana
+	`systemctl status kibana`
 
 [](/./media/media/image87.png)
 
