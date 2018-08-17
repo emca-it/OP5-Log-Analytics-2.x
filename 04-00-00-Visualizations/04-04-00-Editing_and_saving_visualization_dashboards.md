@@ -1,21 +1,24 @@
 ### Edit visualization and saving
 
-After selecting the index and the method of data presentation, the
-user enters the editing mode. This will open a new window with empty
+Editing a saved visualization enables you to directly modify the object 
+definition. You can change the object title, add a description, and modify
+the JSON that defines the object properties.
+After selecting the index and the method of data presentation, you can enter
+the editing mode. This will open a new window with empty
 visualization.
 
-![](/./media/media/image29.png)
+![](/./media/media/image29_js.png)
 
 At the very top there is a bar of queries that cat be edited
 throughout the creation of the visualization. It work in the same way
 as in the "Discover" tab, which means searching the raw data, but
 instead of the data being displayed, the visualization will be edited.
 The following example will be based on the „Area chart". The
-visualization modification panel on the left is divided into two tabs
--- „Data" and „Options".
+visualization modification panel on the left is divided into two tabs:
+„Data" and „Options".
 
-In the „Data" tab, the elements responsible for which data and how
-should be presented are modified. In this tab there are two sectors --
+In the „Data" tab, you can modyfiy the elements responsible for which data
+and how should be presented. In this tab there are two sectors:
 "metrics", in which we set what data should be displayed, and
 „buckets" in which we specify how they should be presented. In the
 „Options" tab, there are settings relating mainly to visual
@@ -23,12 +26,12 @@ aesthetics. Each type of visualization has separate options. To create
 the first graph in the char modification panel, in the „Data" tab we
 add X-Axis in the "buckets" sections. In „Aggregation" choose „Date
 Histogram", in „Field" should automatically be located "timestamp",
-and "interval" -- "Auto" (if not, this is how we set it). Click on the
+and "interval": "Auto" (if not, this is how we set it). Click on the
 icon on the panel. Now our first graph should show up.
 
 Some of the options for „Area Chart" are:
 
-   **Smooth Lines** -- is used to smooth the graph line.
+   **Smooth Lines** - is used to smooth the graph line.
 
 ![](/./media/media/image30.png)
 
