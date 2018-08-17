@@ -29,7 +29,7 @@ To delete a saved query, select it in the list (the icon
 then click![](/./media/media/image23.png). In this way, you can delete many
 saved queries simultaneously.
 
-![](/./media/media/image24.png)
+![](/./media/media/image24_js.png)
 
 From this level, you can also export saved queries in the same way. To
 do this, you need to click on
