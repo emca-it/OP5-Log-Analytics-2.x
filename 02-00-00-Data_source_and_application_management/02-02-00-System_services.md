@@ -3,25 +3,35 @@ System services
 
 For proper operation OP5 Log Alanytics requires starting the following system services:
 
-- elasticsearch.services - 
+- elasticsearch.service - 
   we can run it with a command:
 
-	`systemctl start elasticsearch`
+	`systemctl start elasticsearch.service`
 
-[](/./media/media/image86.PNG)
+![](/./media/media/image86.PNG)
 
   we can check its status with a command:
   	
-	`systemctl status elasticsearch`
+	`systemctl status elasticsearch.service`
 
-- kibana.services - 
+- kibana.service - 
   we can run it with a command:
  	
-	`systemctl start kibana`
+	`systemctl start kibana.service`
 
   we can check its status with a command:
 
-	`systemctl status kibana`
+	`systemctl status kibana.service`
 
-[](/./media/media/image87.PNG)
+![](/./media/media/image87.PNG)
 
+- logstash.service - 
+   we can run it with a command:
+
+	`systemctl start logstash.service`
+
+   we can check its status with a command:
+
+   	`systemctl status logstash.service`
+
+![](/./media/media/image88.PNG)
