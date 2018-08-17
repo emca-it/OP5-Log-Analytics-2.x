@@ -5,8 +5,7 @@ Saving queries enables you to reload and use them in the future. To do this,
 click on the icon
 ![](/./media/media/image16.png) to the right on the query bar. This
 will bring up a window in which we give the query a name and then
-click the button
-![](/./media/media/image17.png}.
+click the button ![](/./media/media/image17.png).
 
 ![](/./media/media/image18.png)
 
