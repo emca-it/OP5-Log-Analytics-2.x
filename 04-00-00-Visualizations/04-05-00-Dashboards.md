@@ -14,12 +14,14 @@ about the performance units or branches.
 To create a dashboard from previously saved visualization and queries,
 go to the „Dashboard" tab in the main menu bar. When you open it, a
 new page will appear.
-![](/./media/media/image32.png)Clicking on the icon
-![](/./media/media/image33.png) and selecting a saved query and / or
+
+![](/./media/media/image32.png)
+
+Clicking on the icon ![](/./media/media/image33.png) and selecting a saved query and / or
 visualization from the list will add them to the dashboard. If, there
 are a large number of saved objects, use the bar to search for them by
 name. To collapse the window for adding objects, click on the gray bar
-with icon ![](//////./media/media/image34.png) (the windows can be re-opened by clicking the icon
+with icon ![](/./media/media/image34.png) (the windows can be re-opened by clicking the icon
 ![](/./media/media/image33.png) to the right of the query bar again).
 
 ![](/./media/media/image35.png)
