@@ -36,21 +36,20 @@ The search language used in OP5 allows to you use logical operators
 complex queries.
 
 -   **AND** is used to combined expressions, e.g. „error AND „access
-   denied" ". If an event contain only one expression or the words
+   denied". If an event contain only one expression or the words
    error and denied but not the word access, then it will not be
    displayed.
 
 -   **OR** is used to search for the events that contain one OR other
-   expression, e.g. „ „status:500" OR denied". This query will display
+   expression, e.g. „status:500" OR "denied". This query will display
    events that contain word „denied" or status field value of 500. OP5
-   uses this operator by default, so query „ „status:500" denied" would
+   uses this operator by default, so query „status:500" "denied" would
    return the same results.
 
--   **NOT** is used to exclude the following expression e.g. „status:\[500
-   TO 599\] NOT status:505" will display all events that have a status
+-   **NOT** is used to exclude the following expression e.g. „status:[500
+   TO 599] NOT status:505" will display all events that have a status
    fields, and the value of the field is between 500 and 599 but will
-   eliminate from the result events whose status field value is exactly
-   505.
+   eliminate from the result events whose status field value is exactly 505.
 
 -   The above methods can be combined with each other by building even
    more complex queries. Understanding how they work and joining it, is
