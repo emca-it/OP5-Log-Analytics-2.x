@@ -13,7 +13,7 @@ status „Alert Status".
 
  In the alert creation windows we have an alert creation form:
  
- ![](/./media/media/image92.png)
+ ![](/./media/media/image92.PNG)
  
  - Name - the name of the alert, after which we will recognize and
 search for it.
