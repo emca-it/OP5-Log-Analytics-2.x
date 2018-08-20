@@ -5,8 +5,7 @@ OP5 Log Analytics has a built-in task schedule. In this module, we can
 define a command or a list of commands whose execution we instruct the
 application in the form of tasks. We can determine the time and
 frequency of tasks. Tasks can contain a simple syntax, but they can
-also be associated with modules, e.g. with one of the Intelligence
-modules.
+also be associated with modules, e.g. with Intelligence module.
 
 To go to the Scheduler window, select the tile icon from the main menu
 bar and then go to the „Scheduler" icon (To go back, go to the
@@ -21,12 +20,10 @@ the status of tasks in „Jobs Status"
 In the window for creating new tasks we have a form consisting of
 fields:
 
--  Name -- in which we enter the name of the task
-
--  Cron Pattern -- a field in which in cron notation we define the time
+- **Name** - in which we enter the name of the task
+- **Cron Pattern** - a field in which in cron notation we define the time
    and frequency of the task
-
--  Command -- we give the syntax of the command that will be executed
+- **Command** - we give the syntax of the command that will be executed
    in this task. These can be simple system commands, but also
    complex commands related to the Intelligence module. In the task
    management window, we can activate /deactivate, delete and update
