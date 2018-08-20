@@ -23,7 +23,7 @@ and consists of several fields:
     series of operation (Bulk)
 -   Delete Exported CSVs (in days) field - in this field we specify
     after which time exported file with CSV extension have to be removed
--   pole Delete Exported PDFs (in days) - in this field we specify
+-   Delete Exported PDFs (in days) field - in this field we specify
     after which time exported file with PDF extension have to be removed
 -   To each field is assigned button thanks to which we can confirm the
     changes.
