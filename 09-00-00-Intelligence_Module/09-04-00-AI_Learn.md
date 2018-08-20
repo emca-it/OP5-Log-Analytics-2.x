@@ -33,17 +33,17 @@ Description of controls:
   current attributes, but for categories for the future.
 - **value type** - which values to take into account when aggregating for
   a given time frame (e.g. maximum from time frame, minimum, average)
-- **output class count **- the expected number of result classes. **If
+- **output class count**- the expected number of result classes. **If
   during learning the network identifies more classes than the user
   entered, the process will be interrupted with an error, therefore it
   is better to set up more classes than less, but you have to keep in
   mind that this number affects the learning time.**
-- **neurons in first hidden layer (from, to) **- the number of neurons in
+- **neurons in first hidden layer (from, to)** - the number of neurons in
   the first hidden layer. Must have a value \> 0. Jump every 1.
-- **neurons in second hidden layer (from, to) **- the number of neurons
+- **neurons in second hidden layer (from, to)** - the number of neurons
   in second hidden layer. If = 0, then this layer is missing. Jump
   every 1.
-- **neurons in third hidden layer (from, to) **- the number of neurons in
+- **neurons in third hidden layer (from, to)** - the number of neurons in
   third hidden layer. If = 0 then this layer is missing. Jump every 1.
 - **max iter** (from, to) - maximum number of network teaching
   repetitions (the same data is used for learning many times in
@@ -79,10 +79,10 @@ learning results every 10s.
 
 The following information will be available in the table on the left:
 
--   **Internal name** - the model name given by the system, including the
+- **Internal name** - the model name given by the system, including the
     user - specified prefix
 
--   **Overall efficiency** - the network adjustment indicator - allow to
+- **Overall efficiency** - the network adjustment indicator - allow to
     see at a glance whether it is worth dealing with the model. The
     grater the value, the better.
 
