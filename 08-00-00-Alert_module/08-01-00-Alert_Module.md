@@ -6,7 +6,7 @@ queries. These are constant queries that run in the background and
 when the conditions specified in the alert are met, the specify action
 is taken. 
 
-![](/./media/media/image91.png)
+![](/./media/media/image91.PNG)
 
 For example, if you want to know when more than 20
 „status:500" responscode from on our homepage appear within an one
