@@ -27,9 +27,3 @@ field
 - Alert method - the action the alert will take if the conditions are
 met (sending an email message or executing a command)
 - Any - additional descriptive field.
- In the alert management window, you can activate / deactivate, delete
-and update alerts by clicking on the selected icon with the given
-alert. ![](/./media/media/image63.png).
- In the alert status window, you can check the current alert status: if
-it activated, when it started and when it ended, how long it lasted,
-how many event sit found and how many times it worked.
