@@ -43,7 +43,7 @@ Description of controls:
     "time frame = monthly", we will be able to predict a one month
     ahead from the moment of prediction (according to the "prediction
     cycle" value)
-- **threshold** - default values -1 (do not search). Specifies the
+- **Threshold** - default values -1 (do not search). Specifies the
     algorithm what level of exceeding the value of the feature „feature
     to analyze from cheese" is to look for. The parameter currently used
     only by the "Trend" algorithm.
