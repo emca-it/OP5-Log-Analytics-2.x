@@ -11,7 +11,7 @@ To go to the Scheduler window, select the tile icon from the main menu
 bar and then go to the „Scheduler" icon (To go back, go to the
 „Search" icon)
 
-![](/./media/media/image38.png)
+![](/./media/media/image38_js5.png)
 
 The page with three tabs will be displayed: Creating new tasks in the
 „Create Scheduler Job", managing tasks in the „Job List" and checking
