@@ -9,7 +9,6 @@ Column description:
     - ![](/./media/media/image72.png) - process completed correctly
     - ![](/./media/media/image73.png) - the process ended with an error
 - **Name** - the name of the rule
-- 
 - **Search** - the search on which the rule was run
 - **Method** - an algorithm used in the AI rule
 - **Actions** - allowed actions:
