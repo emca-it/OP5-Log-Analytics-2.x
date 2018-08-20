@@ -71,7 +71,7 @@ user can decide on these values himself.**
 Under the parameters for learning the network there is an area in
 which teaching results will appear.
 
-After pressing the Refresh button, the list of the resulting models
+After pressing the "Refresh" button, the list of the resulting models
 will be refreshed.
 
 Autorefresh - selecting the field automatically refreshes the list of
@@ -90,6 +90,6 @@ After clicking on the table row, detailed data collected during the
 learning of the given model will be displayed. This data will be
 visible in the box on the right.
 
-The selected model can be saved under its own name using the Save
-algorithm button. This saved algorithm will be available in the
+The selected model can be saved under its own name using the "Save
+algorithm" button. This saved algorithm will be available in the
 "Choose AI Rule" list when creating the rule (see Create AI Rule).
