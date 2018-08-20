@@ -6,7 +6,7 @@ indexes and methods used by them. To go to the management window,
 select the tile icon from the main menu bar and then go to the
 „Config" icon (To go back, go to the „Search" icon).
 
-![](/./media/media/image38.png)
+![](/./media/media/image38_js.png)
 
 A new window will appear with three main tabs: „User Management",
 „Settings" and „License Info".
