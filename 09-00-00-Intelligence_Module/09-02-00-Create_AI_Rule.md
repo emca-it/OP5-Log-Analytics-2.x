@@ -1,7 +1,7 @@
 Create AI Rule
 --------------
-To create the AI Rule, select the tile icon from the main menu bar 
-and then go to the „Intelligence" icon and select "Create AI Rule" tab. 
+To create the AI Rule, click on the tile icon from the main menu bar, 
+go to the „Intelligence" icon and select "Create AI Rule" tab. 
 The screen allows to defining the rules of artificial intelligence
 based on one of the available algorithms (a detailed description of
 the available algorithms is available in a separate document).
