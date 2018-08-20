@@ -5,7 +5,7 @@ To create the alert, select the tile icon from the main menu
 bar and then go to the „Alerts" icon (To go back, go to the „Search"
 icon).
 
- ![](/./media/media/image38_js3.png)
+ ![](/./media/media/image93.png)
 
 We will display a page with tree tabs: Create new alerts in „Create
 alert rule", manage alerts in „Alert rules List" and check alert
