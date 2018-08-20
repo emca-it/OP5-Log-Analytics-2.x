@@ -3,10 +3,9 @@ Permission
 
 Permission have been implemented in the following way:
 
--   Only the user in the admin role can create / update rules.
-
--   When creating rules, the roles that will be able to enables /
-     disengage / view the rules will be indicated.
+- Only the user in the admin role can create / update rules.
+- When creating rules, the roles that will be able to enables /
+  disengage / view the rules will be indicated.
 
 We assume that the Learn process works as an administrator.
 
