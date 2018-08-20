@@ -1,4 +1,4 @@
-Alerts statsu
+Alerts status
 =============
 
 In the "Alert status" tab, you can check the current alert status: if
