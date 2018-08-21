@@ -2,19 +2,18 @@ Role mapping.
 -------------
 
 In the `/etc/elasticsearch/elasticsearch.yml` configuration you can find
-a section for configuring role mapping.
+a section for configuring role mapping.\
 
-`\# LDAP ROLE MAPPING FILE`
-`\#rolemapping.file.path: /etc/elasticsearch/role-mappings.yml`
+`# LDAP ROLE MAPPING FILE`\
+`#rolemapping.file.path: /etc/elasticsearch/role-mappings.yml`\
 
 This variable points to the file `/etc/elasticsearch/role-mappings.yml`
-Below is the sample content for this file
+Below is the sample content for this file:
 
-`admin:`
-`\- \"CN=Admins,OU=lab,DC=dev,DC=it,DC=example,DC=com\"`
-
-`bank:`
-`\- \"CN=security,OU=lab,DC=dev,DC=it,DC=example,DC=com\"`
+admin:\
+- `"CN=Admins,OU=lab,DC=dev,DC=it,DC=example,DC=com"`\
+bank:
+- `"CN=security,OU=lab,DC=dev,DC=it,DC=example,DC=com"`\
 
 The mapping mechanism works in this way:
 An AD user log in to OP5 Log Analytics. In the application there is a
