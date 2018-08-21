@@ -44,4 +44,4 @@ like. (It is important to take the interpreter to read these values
 After completing the LDAP section entry in the `elasticsearch.yml` file,
 save the changes and restart the service with the command:
 
-**`\# systemctl restart elasticsearch`**
+**`# systemctl restart elasticsearch`**
