@@ -11,7 +11,7 @@ This variable points to the file `/etc/elasticsearch/role-mappings.yml`
 Below is the sample content for this file:
 
 admin:
-- `"CN=Admins,OU=lab,DC=dev,DC=it,DC=example,DC=com"`\
+- `"CN=Admins,OU=lab,DC=dev,DC=it,DC=example,DC=com"`
 
 bank:
 - `"CN=security,OU=lab,DC=dev,DC=it,DC=example,DC=com"`
