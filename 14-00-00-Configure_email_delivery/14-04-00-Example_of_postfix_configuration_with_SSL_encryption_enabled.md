@@ -36,6 +36,6 @@ entries in addition to standard (unchecked entries):
 
   		*`cat /etc/ssl/certs/Example\_Server\_CA.pem | tee -a etc/postfix/cacert.pem`*
 
-	And finally, we restart postfix
+	And finally, you need to restart postfix
 
   		*`/etc/init.d/postfix restart`*
