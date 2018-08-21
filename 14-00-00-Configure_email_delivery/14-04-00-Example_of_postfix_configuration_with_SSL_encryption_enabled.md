@@ -30,11 +30,11 @@ entries in addition to standard (unchecked entries):
 
 	and map configuration to database: 
   
-		  *`postmap /etc/postfix/sasl_passwd`*
+		*`postmap /etc/postfix/sasl_passwd`*
 
 	next you need to generate a ca cert file:
 
-  		*`cat /etc/ssl/certs/Example\_Server\_CA.pem \| tee -a etc/postfix/cacert.pem`*
+  		*`cat /etc/ssl/certs/Example\_Server\_CA.pem | tee -a etc/postfix/cacert.pem`*
 
 	And finally, we restart postfix
 
