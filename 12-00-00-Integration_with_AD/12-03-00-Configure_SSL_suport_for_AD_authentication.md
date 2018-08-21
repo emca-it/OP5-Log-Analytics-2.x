@@ -49,4 +49,4 @@ must be set in the `elasticsearch.yml` configuration for
 SSL:\
 `ssl.keystore.file: "\<path to the trust certificate store \>"`
 
-`ssl.keystore.password: \"\< password to the trust certificate store \>\"`
+`ssl.keystore.password: \"\< password to the trust certificate store \>"`
