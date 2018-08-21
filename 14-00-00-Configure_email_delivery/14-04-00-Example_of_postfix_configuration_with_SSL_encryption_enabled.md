@@ -1,11 +1,11 @@
 Example of postfix configuration with SSL encryption enabled
 ------------------------------------------------------------
 
-This configuration is done on 4 postfix files:
+To configure email delivery with SSL encryption you need to make 
+the following changes in the *postfix* configuration files:
 
-1\.  The main.cf file should contain the following entries in addition to
-  standard (unchecked entries):
-  
+- in **`/etc/postfix/main.cf`** file should contain the following 
+entries in addition to standard (unchecked entries):
   mydestination = \$myhostname, localhost.\$mydomain, localhost
   
   myhostname = example.com
