@@ -1,27 +1,22 @@
 Role mapping.
 -------------
 
-In the elasticsearch.yml configuration file there is also a section
-for configuring role mapping.
+In the `/etc/elasticsearch/elasticsearch.yml` configuration you can find
+a section for configuring role mapping.
 
-\# LDAP ROLE MAPPING FILE
+`\# LDAP ROLE MAPPING FILE`
+`\#rolemapping.file.path: /etc/elasticsearch/role-mappings.yml`
 
-\#rolemapping.file.path: /etc/elasticsearch/role-mappings.yml
+This variable points to the file `/etc/elasticsearch/role-mappings.yml`
+Below is the sample content for this file
 
-This variable points to the file role-mappings.yml which is located in
-the /etc/elastisearch/ directory. Below is the sample content for this
-file
+`admin:`
+`\- \"CN=Admins,OU=lab,DC=dev,DC=it,DC=example,DC=com\"`
 
-admin:
-
-\- \"CN=Admins,OU=lab,DC=dev,DC=it,DC=example,DC=com\"
-
-bank:
-
-\- \"CN=security,OU=lab,DC=dev,DC=it,DC=example,DC=com\"
+`bank:`
+`\- \"CN=security,OU=lab,DC=dev,DC=it,DC=example,DC=com\"`
 
 The mapping mechanism works in this way:
-
 An AD user log in to OP5 Log Analytics. In the application there is a
 admin role, which through the file role-mapping .yml binds to the name
 of the admin role to which the Admins container from AD is assigned.
@@ -38,7 +33,7 @@ role-mappings.yml and existing in AD any container.
 Below a screenshot of the console on which are marked accounts that
 were created by uesrs logging in from AD
 
-![](/./media/media/image85.png)
+![](/./media/media/image85_js.png)
 
 If you map roles with from several domains, for example
 dev.examloe1.com, dev.example2.com then in User List we will see which
