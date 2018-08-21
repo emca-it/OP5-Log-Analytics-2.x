@@ -6,7 +6,7 @@ file.
 
 Below is a list of settings to be made in the elasticsearch.yml file
 (the commented section in the file in order for the AD settings to
-start working, this fragment should be uncommented):\
+start working, this fragment should be uncommented):
 
 
 |**Direcitve**                          		| **Description**               							|
@@ -33,13 +33,15 @@ start working, this fragment should be uncommented):\
 
 If we want to configure multiple domains, then in this configuration
 file we copy the \# LDAP section below and configure it for the next
-domain. Below is an example of how an entry for 2 domains should look
+domain. 
+
+Below is an example of how an entry for 2 domains should look
 like. (It is important to take the interpreter to read these values
 ​​correctly).
 
 ![](/./media/media/image77.png)
 
-After completing the LDAP section entry in the elasticsearch.yml file,
+After completing the LDAP section entry in the `elasticsearch.yml` file,
 save the changes and restart the service with the command:
 
-**\# systemctl restart elasticsearch**
+**`\# systemctl restart elasticsearch`**
