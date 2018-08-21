@@ -1,21 +1,17 @@
 Basic postfix configuration
 ---------------------------
+Base configuration of *postfix* application you can make in
+`/etc/postfix/main.cfg` configuration file, which must complete 
+with the following entry:
+- section *# RECEIVING MAIL*\
+`inet\_interfaces = all`\
+`inet\_protocols = ipv4`
 
-This configuration is done in the main.cfg file which we complete with
-the entry:
+- section *# INTERNET OR INTRANET*\
+`relayhost = \[IP mail server\]:25 (port number)`
 
--  section \# RECEIVING MAIL
+I the netxt step you must complete the canonical file
+of *postfix*
 
-inet\_interfaces = all
-
-inet\_protocols = ipv4
-
--  section \# INTERNET OR INTRANET
-
-relayhost = \[IP mail server\]:25 (port number)
-
-Then, we complete the canonical file as described in p. 11.1
-
-At the end we restart the postfix
-
-/etc/init.d/postfix restart
+At the end you should restart the *postfix*:
+`systemctl restart postfix`
