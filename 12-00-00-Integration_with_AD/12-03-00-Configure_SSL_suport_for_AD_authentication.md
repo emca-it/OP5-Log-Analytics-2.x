@@ -38,16 +38,15 @@ To import a certificate into a trusted certificate file, a tool called
 
 Use the following command to import a certificate file:
 
-keytool -import -alias adding\_certificate\_keystore -file
-**certificate.cer** -keystore **certificatestore**
+`keytool -import -alias adding\_certificate\_keystore -file certificate.cer -keystore certificatestore`
 
 The values for RED should be changed accordingly.
 
 By doing this, he will ask you to set a password for the trusted
 certificate store. Remember this password, because it must be set in
 the configuration of the elasticsearch plugin. The following settings
-must be set in the elasticsearch.yml configuration for
-SSL:**ssl.keystore.file**: "\<path to the trust certificate store \>"
+must be set in the `elasticsearch.yml` configuration for
+SSL:\
+`ssl.keystore.file: "\<path to the trust certificate store \>"`
 
-**ssl.keystore.password**: \"\< password to the trust certificate
-store \>\"
+`ssl.keystore.password: \"\< password to the trust certificate store \>\"`
