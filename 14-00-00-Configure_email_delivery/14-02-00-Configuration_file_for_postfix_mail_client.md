@@ -74,7 +74,7 @@ contains files:
  *Examples of entries in the file:*
  
  To forward emails to user1 to the
- [[user1\@yahoo.com] mailbox:
+ [[user1@yahoo.com] mailbox:
  
  	user1 user1\@yahoo.com
  
