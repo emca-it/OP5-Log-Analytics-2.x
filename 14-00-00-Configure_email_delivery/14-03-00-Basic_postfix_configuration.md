@@ -13,5 +13,5 @@ with the following entry:
 I the netxt step you must complete the canonical file
 of *postfix*
 
-At the end you should restart the *postfix*:
+At the end you should restart the *postfix*:\
 `systemctl restart postfix`
