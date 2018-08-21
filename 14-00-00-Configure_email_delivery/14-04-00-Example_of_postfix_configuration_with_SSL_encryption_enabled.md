@@ -4,41 +4,38 @@ Example of postfix configuration with SSL encryption enabled
 To configure email delivery with SSL encryption you need to make 
 the following changes in the *postfix* configuration files:
 
-- in **`/etc/postfix/main.cf`** file should contain the following 
+- **`/etc/postfix/main.cf`** - file should contain the following 
 entries in addition to standard (unchecked entries):
-	- *`mydestination = \$myhostname, localhost.\$mydomain, localhost`*
+	- *`mydestination = $myhostname, localhost.$mydomain, localhost`*
 	- *`myhostname = example.com`*
-	- *`relayhost = \[smtp.example.com\]:587`*
-	- *`smtp\_sasl\_auth\_enable = yes`*
-	- *`smtp\_sasl\_password\_maps = hash:/etc/postfix/sasl\_passwd`*
-	- *`smtp\_sasl\_security\_options = noanonymous`*
-	- *`smtp\_tls\_CAfile = /root/certs/cacert.cer`*
-	- *`smtp\_use\_tls = yes`*
-	- *`smtp\_sasl\_mechanism\_filter = plain, login`*
-	- *`smtp\_sasl\_tls\_security\_options = noanonymous`*
-	- *`canonical\_maps = hash:/etc/postfix/canonical`*
-	- *`smtp\_generic\_maps = hash:/etc/postfix/generic`*
-	- *`smtpd\_recipient\_restrictions = permit\_sasl\_authenticated`*
+	- *`relayhost = [smtp.example.com]:587`*
+	- *`smtp_sasl_auth_enable = yes`*
+	- *`smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd`*
+	- *`smtp_sasl_security_options = noanonymous`*
+	- *`smtp_tls_CAfile = /root/certs/cacert.cer`*
+	- *`smtp_use_tls = yes`*
+	- *`smtp_sasl_mechanism_filter = plain, login`*
+	- *`smtp_sasl_tls_security_options = noanonymous`*
+	- *`canonical_maps = hash:/etc/postfix/canonical`*
+	- *`smtp_generic_maps = hash:/etc/postfix/generic`*
+	- *`smtpd_recipient_restrictions = permit_sasl_authenticated`*
 
-3\. We define the data for authorized in the file 
-  /etc/postfix/sasl\_passwd
+ - **`/etc/postfix/sasl/passwd`** - file should define the data for authorized
 
-  \[smtp.example.com\]:587
-  [[USER\@example.com:PASS]{.underline}](mailto:USER@example.com:PASS)
+  		*`[smtp.example.com\]:587 [[USER@example.com:PASS]](mailto:USER@example.com:PASS)`*
 
-4\. We give appropriate permissions
+	You need to give appropriate permissions:
 
-  chmod 400 /etc/postfix/sasl\_passwd
+  		*`chmod 400 /etc/postfix/sasl_passwd`*
 
-5\. We map 
+	and map configuration to database: 
   
-  postmap /etc/postfix/sasl\_passwd
+		  *`postmap /etc/postfix/sasl_passwd`*
 
-6\. We generate a cacert file
+	next you need to generate a ca cert file:
 
-  cat /etc/ssl/certs/Example\_Server\_CA.pem \| tee -a
-  /etc/postfix/cacert.pem
+  		*`cat /etc/ssl/certs/Example\_Server\_CA.pem \| tee -a etc/postfix/cacert.pem`*
 
-7\. Finally, we restart postfix
+	And finally, we restart postfix
 
-  /etc/init.d/postfix restart
+  		*`/etc/init.d/postfix restart`*
