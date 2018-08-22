@@ -76,15 +76,17 @@ While doing this it will ask for setting a password for the trust store.
 Remember this password as this needs to be set in Elasticsearch plugin configuration.
 
 Following settings should be set in Elasticsearch configuration for SSL:\
-*`ssl.keystore.file: “<path to the trust store in above step>”`*
+*`ssl.keystore.file: “<path to the trust store in above step>”`*\
 *`ssl.keystore.password: "<password of the trust store in above step>"`*
 
-ldaps:
-    - name: "dev.example.com"
-      host: "85.14.118.173"
-      port: 389                                                 # optional, default 389
-      ssl_enabled: true                                         # set this property for enabling ssl for this domain
-      ssl_trust_all_certs: false                                 # set this property for truststore. If set to true then it will accept all the certificates else it will accept certificates only from the truststore.
+| **Directive**                         |   **Description**                |
+|---------------------------------------|----------------------------------|
+|ldaps:                                 | 
+|- name: "dev.example.com"              |
+|host: "85.14.118.173"                  |
+|port: 389                              | # optional, default 389\
+|ssl_enabled: true                      | # set this property for enabling ssl for this domain\
+|ssl_trust_all_certs: false             | # set this property for truststore. If set to true then it will accept all the certificates else it will accept certificates only from the truststore.
 
 
 Configuring Single Sign On (SSO) support (Since version 2.3.19)
