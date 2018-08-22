@@ -122,12 +122,12 @@ Values highlighted in bold can be changed. Domain specified should be for which 
 
 3.	Create a file named *krb5Login.conf* with the following contents:
 
-	com.sun.security.jgss.initiate{\
+	*com.sun.security.jgss.initiate{*\
 	*com.sun.security.auth.module.Krb5LoginModule required principal="**esauth@DEV.EXAMPLE.COM**" useKeyTab=true keyTab=**C:\\Users\\Administrator\\Desktop\\esauth.keytab** storeKey=true debug=true;*\
-	};
-	com.sun.security.jgss.krb5.accept {\
-	com.sun.security.auth.module.Krb5LoginModule required principal="**esauth@DEV.EXAMPLE.COM**" useKeyTab=true keyTab=**C:\\Users\\Administrator\\Desktop\\esauth.keytab** storeKey=true debug=true;\
-	};
+	*};*
+	*com.sun.security.jgss.krb5.accept {*\
+	*com.sun.security.auth.module.Krb5LoginModule required principal="**esauth@DEV.EXAMPLE.COM**" useKeyTab=true keyTab=**C:\\Users\\Administrator\\Desktop\\esauth.keytab** storeKey=true debug=true;*\
+	*};*
 		
 Content in bold should be changed as per the values created in the step 2. Make sure the domain should be in UPPERCASE as shown above.
 
