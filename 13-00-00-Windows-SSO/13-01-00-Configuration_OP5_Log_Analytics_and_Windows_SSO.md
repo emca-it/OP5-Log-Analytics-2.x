@@ -109,7 +109,7 @@ In this step, a Kerberos Principal representing Elasticsearch auth plugin is cre
 
 Create User in AD, enter the details as shown below:
 
-![](/./media/media/image106.png)
+![](/./media/media/image107.png)
 
 Make sure about the password options and encryption options as shown in the image.
 Also note down the password that is set for this user and select password never expires option.
@@ -142,7 +142,8 @@ Change the appropriate value in the bold. This JVM arguments has to be set for E
 
 6. Add the following additional (highlighted in bold) settings for ldap in elasticsearch.yml or properties.yml file wherever the ldap settings are configured:
 
-		**sso.domain: "dev.example.com"**
+**sso.domain: "dev.example.com"**
+
 		ldaps:
 		- name: "dev.example.com"
 		host: "IP_address"
@@ -155,12 +156,60 @@ Change the appropriate value in the bold. This JVM arguments has to be set for E
 		user_id_attribute: "uid"                                  # optional, default "uid"
 		search_groups_base_DN: "OU=lab,DC=dev,DC=it,DC=example,DC=com"
 		unique_member_attribute: "uniqueMember"                   # optional, default "uniqueMember"
-		service_principal_name: "esauth@DEV.EXAMPLE.COM"
-		service_principal_name_password : "Sprint$123"
+
+**service_principal_name: "esauth@DEV.EXAMPLE.COM"**
+**service_principal_name_password : "Sprint$123"**
 
 Settings in bold are additional settings for SSO
 Note: At this moment, SSO works for only single domain. So you have to mention for what domain SSO should work in the above property ‘sso.domain’
 
-7. Client (Browser) Configuration for IE.
-Goto Internet Options from Tools menu.
-Click on Security Tab
+Client (Browser) Configuration for IE. 
+-------------------------------------
+
+1. Goto `Internet Options` from `Tools` menu and click on `Security` Tab:
+
+![](/./media/media/image108.png)
+
+2. Select `Local intranet`, click on `Site` -> `Advanced` -> `Add` the url:
+
+![](/./media/media/image109.png)
+
+After adding the site click close.
+
+3. Click on custom level and select the option as shown below:
+
+![](/./media/media/image110.png)
+
+
+Client (Browser) Configuration for Chrome.
+------------------------------------------
+
+For Chrome, the settings are taken from IE browser.
+
+Client (Browser) Configuration for Firefox.
+-------------------------------------------
+
+Update the following config:
+
+![](/./media/media/image111.png)
+
+
+Testing SSO.
+-----------
+
+In the current AD server, there are 2 users:
+`User1` and `user2`
+
+Login to Windows Machine using this user like :
+
+`Username : DEV\user1`
+`Password : User$123`
+
+Open the goolge Chrome browser and open the link:
+http://dev.example.com:5601/login
+
+This will not ask for user details and user will directly be logged in to Kibana application.
+
+
+
+
