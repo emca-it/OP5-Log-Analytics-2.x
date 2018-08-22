@@ -39,15 +39,15 @@ Configuring the SSL support for AD authentication in elasticsearch plugin. (Sinc
 -------------------------------
 1. Open the certificate manager where the AD server is installed:
 
-![](/./media/media/image100.png)
+![](/./media/media/image100_js.png)
 
 2. Select the certificate and open it:
 
-![](/./media/media/image101.png)
+![](/./media/media/image101_js.png)
 
 3. Select copy to file option in Details tab:
 
-![](/./media/media/image102.png)
+![](/./media/media/image102_js.png)
 
 4.	Click on next:
 
@@ -109,7 +109,7 @@ In this step, a Kerberos Principal representing Elasticsearch auth plugin is cre
 
 Create User in AD, enter the details as shown below:
 
-![](/./media/media/image107.png)
+![](/./media/media/image107_js.png)
 
 Make sure about the password options and encryption options as shown in the image.
 Also note down the password that is set for this user and select password never expires option.
@@ -172,7 +172,7 @@ Client (Browser) Configuration for IE.
 
 2. Select `Local intranet`, click on `Site` -> `Advanced` -> `Add` the url:
 
-![](/./media/media/image109.png)
+![](/./media/media/image109_js.png)
 
 After adding the site click close.
 
@@ -191,7 +191,7 @@ Client (Browser) Configuration for Firefox.
 
 Update the following config:
 
-![](/./media/media/image111.png)
+![](/./media/media/image111_js.png)
 
 
 Testing SSO.
