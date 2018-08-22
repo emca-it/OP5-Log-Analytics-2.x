@@ -145,15 +145,15 @@ Change the appropriate value in the bold. This JVM arguments has to be set for E
 		**sso.domain: "dev.example.com"**
 		ldaps:
 		- name: "dev.example.com"
-		host: "85.14.118.173"
+		host: "IP_address"
 		port: 389                                                 # optional, default 389
 		ssl_enabled: false                                        # optional, default true
 		ssl_trust_all_certs: false                                 # optional, default false
 		bind_dn: "Administrator@dev.example.com"                     # optional, skip for anonymous bind
 		bind_password: "Haslo@4321"                                 # optional, skip for anonymous bind
-		search_user_base_DN: "OU=lab,DC=dev,DC=it,DC=example,DC=pl"
+		search_user_base_DN: "OU=lab,DC=dev,DC=it,DC=example,DC=com"
 		user_id_attribute: "uid"                                  # optional, default "uid"
-		search_groups_base_DN: "OU=lab,DC=dev,DC=it,DC=example,DC=pl"
+		search_groups_base_DN: "OU=lab,DC=dev,DC=it,DC=example,DC=com"
 		unique_member_attribute: "uniqueMember"                   # optional, default "uniqueMember"
 		service_principal_name: "esauth@DEV.EXAMPLE.COM"
 		service_principal_name_password : "Sprint$123"
