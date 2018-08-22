@@ -115,8 +115,9 @@ Make sure about the password options and encryption options as shown in the imag
 Also note down the password that is set for this user and select password never expires option.
 
 2.	Define Service Principal Name (SPN) and Create a Keytab file for it.
-Use the following command to create the keytab file and SPN:\
-    *C:> ktpass -out c:\Users\Administrator\\**esauth.keytab** -princ HTTP/**dev.example.com@DEV.EXAMPLE.COM** -mapUser **esauth** -mapOp set -pass **Sprint$123** -crypto ALL -pType KRB5_NT_PRINCIPAL
+Use the following command to create the keytab file and SPN:
+
+    *C:> ktpass -out c:\Users\Administrator\\**esauth.keytab** -princ HTTP/**dev.example.com@DEV.EXAMPLE.COM** -mapUser **esauth** -mapOp set -pass **Sprint$123** -crypto ALL -pType KRB5_NT_PRINCIPAL*
 
 Values highlighted in bold can be changed. Domain specified should be for which SSO has to work.
 
