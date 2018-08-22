@@ -198,11 +198,11 @@ Testing SSO.
 -----------
 
 In the current AD server, there are 2 users:
-`User1` and `user2`
+`user1` and `user2`
 
 Login to Windows Machine using this user like :
 
-`Username : DEV\user1`
+`Username : DEV\user1`\
 `Password : User$123`
 
 Open the goolge Chrome browser and open the link:
