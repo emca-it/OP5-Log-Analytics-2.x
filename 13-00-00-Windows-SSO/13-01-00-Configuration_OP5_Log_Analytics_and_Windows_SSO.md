@@ -158,7 +158,7 @@ Change the appropriate value in the bold. This JVM arguments has to be set for E
 		search_groups_base_DN: "OU=lab,DC=dev,DC=it,DC=example,DC=com"
 		unique_member_attribute: "uniqueMember"                   # optional, default "uniqueMember"
 
-**service_principal_name: "esauth@DEV.EXAMPLE.COM"**
+**service_principal_name: "esauth@DEV.EXAMPLE.COM"**\
 **service_principal_name_password : "Sprint$123"**
 
 Settings in bold are additional settings for SSO
