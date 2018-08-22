@@ -6,8 +6,12 @@ in *`src/main/resources`* directory in elasticsearch-auth plugin source code.
 
 The various settings that needs to be done in this file are specified as below:
 
+
+
+
 |**Direcitve**                                                    |**Description**                                    
-|-----------------------------------------------------------------|---------------------------------------------------
+|-----------------------------------------------------------------|---------------------------------------------------|
+|ldap:								  |						      |
 |name: "dev.example.com"                                          |# domain which is configured                       |
 |host: "host1,host2"                                              |# list of servers for this domain                  |
 |port: 389                                                        |# port for all the servers.                        |
@@ -79,15 +83,12 @@ Following settings should be set in Elasticsearch configuration for SSL:\
 *`ssl.keystore.file: “<path to the trust store in above step>”`*\
 *`ssl.keystore.password: "<password of the trust store in above step>"`*
 
-| **Directive**                         |   **Description**                |
-|---------------------------------------|----------------------------------|
-|ldaps:                                 | 
-|- name: "dev.example.com"              |
-|host: "IP address or hostname"                  |
-|port: 389                              | # optional, default 389\
-|ssl_enabled: true                      | # set this property for enabling ssl for this domain\
-|ssl_trust_all_certs: false             | # set this property for truststore. If set to true then it will accept all the certificates else it will accept certificates only from the truststore.
-
+	ldaps:
+	    - name: "dev.example.pl"
+	      host: "IP_address"
+	      port: 389                                                 # optional, default 389
+	      ssl_enabled: true                                         # set this property for enabling ssl for this domain
+	      ssl_trust_all_certs: false                                 # set this property for truststore. If set to true then it will accept all the certificates else it will accept certificates only from the truststore.
 
 Configuring Single Sign On (SSO) support (Since version 2.3.19)
 ---------------------------------------------------------------
@@ -141,23 +142,21 @@ Change the appropriate value in the bold. This JVM arguments has to be set for E
 
 6. Add the following additional (highlighted in bold) settings for ldap in elasticsearch.yml or properties.yml file wherever the ldap settings are configured:
 
-**sso.domain: "dev.example.com"**
-
-ldaps:
-    
-    - name: "dev.example.com"
-      host: "85.14.118.173"
-      port: 389                                                 # optional, default 389
-      ssl_enabled: false                                        # optional, default true
-      ssl_trust_all_certs: false                                 # optional, default false
-      bind_dn: "Administrator@dev.example.com"                     # optional, skip for anonymous bind
-      bind_password: "Haslo@4321"                                 # optional, skip for anonymous bind
-      search_user_base_DN: "OU=lab,DC=dev,DC=it,DC=example,DC=pl"
-      user_id_attribute: "uid"                                  # optional, default "uid"
-      search_groups_base_DN: "OU=lab,DC=dev,DC=it,DC=example,DC=pl"
-      unique_member_attribute: "uniqueMember"                   # optional, default "uniqueMember"
-      service_principal_name: "esauth@DEV.EXAMPLE.COM"
-      service_principal_name_password : "Sprint$123"
+		**sso.domain: "dev.example.com"**
+		ldaps:
+		- name: "dev.example.com"
+		host: "85.14.118.173"
+		port: 389                                                 # optional, default 389
+		ssl_enabled: false                                        # optional, default true
+		ssl_trust_all_certs: false                                 # optional, default false
+		bind_dn: "Administrator@dev.example.com"                     # optional, skip for anonymous bind
+		bind_password: "Haslo@4321"                                 # optional, skip for anonymous bind
+		search_user_base_DN: "OU=lab,DC=dev,DC=it,DC=example,DC=pl"
+		user_id_attribute: "uid"                                  # optional, default "uid"
+		search_groups_base_DN: "OU=lab,DC=dev,DC=it,DC=example,DC=pl"
+		unique_member_attribute: "uniqueMember"                   # optional, default "uniqueMember"
+		service_principal_name: "esauth@DEV.EXAMPLE.COM"
+		service_principal_name_password : "Sprint$123"
 
 Settings in bold are additional settings for SSO
 Note: At this moment, SSO works for only single domain. So you have to mention for what domain SSO should work in the above property ‘sso.domain’
