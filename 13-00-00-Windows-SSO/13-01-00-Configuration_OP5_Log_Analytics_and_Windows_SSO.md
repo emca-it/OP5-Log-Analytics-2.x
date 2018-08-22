@@ -33,6 +33,83 @@ After finish restart the Elasticsearch:
 
 Configuring the SSL support for AD authentication in elasticsearch plugin. (Since version 2.3.6)
 -------------------------------
-1. Open the certificate manager where the AD server is installed:\
+1. Open the certificate manager where the AD server is installed:
+
 ![](/./media/media/image100.png)
+
+2. Select the certificate and open it:
+
+![](/./media/media/image101.png)
+
+3. Select copy to file option in Details tab:
+
+![](/./media/media/image102.png)
+
+4.	Click on next:
+
+![](/./media/media/image103.png)
+
+5.	Keep the setting as shown below and proceed next:
+
+![](/./media/media/image104.png)
+
+6.	Keep the setting as shown below and proceed next:
+
+![](/./media/media/image105.png)
+
+7.	Give the name to certificate:
+
+![](/./media/media/image106.png)
+
+After the certificate is exported , this certificate should be imported in the trustsore 
+that will be used by Elasticsearch plugin.
+
+To import the certificate in the truststore there is utility called “keytool.exe” 
+in JDK installation bin folder.
+
+Use the command below to import it:
+*`keytool -import -alias adding_certificate_keystore  -file certificate.cer -keystore certificatestore`*
+
+Values in RED should be changed as appropriate.
+
+While doing this it will ask for setting a password for the trust store. 
+Remember this password as this needs to be set in Elasticsearch plugin configuration.
+
+Following settings should be set in Elasticsearch configuration for SSL
+
+*`ssl.keystore.file: “<path to the trust store in above step>”`*
+*`ssl.keystore.password: "<password of the trust store in above step>"`*
+
+ldaps:
+    
+    - name: "dev.example.com"
+      host: "85.14.118.173"
+      port: 389                                                 # optional, default 389
+      ssl_enabled: true                                         # set this property for enabling ssl for this domain
+      ssl_trust_all_certs: false                                 # set this property for truststore. If set to true then it will accept 
+      all the certificates else it will accept certificates only from the truststore.
+
+
+
+Configuring Single Sign On (SSO) support (Since version 2.3.19)
+
+The very basic thing required for SSO is that the system should be accessible via domain url and not IP address or localhost. (SSO does not work for IP address/localhost)
+
+Like :
+http://dev.example.com:5601/login
+
+Not like :
+http://localhost:5601/login
+or
+http://85.132.23.34:5601/login
+
+SSO feature can be enabled/disabled using the following setting in kibana.yml file
+
+kibana.sso_enabled: true
+
+1.	Create an Account for Elasticsearch auth plugin
+In this step, a Kerberos Principal representing Elasticsearch auth plugin is created on the Active Directory.  The principal name would be something like name@REALM.NAME, while the REALM.NAME is the administrative name of the realm. In our case, the principal name will be esauth@DEV.EXAMPLE.COM. The account type should be "User", not a "Computer" in the AD.
+
+Create User in AD, enter the details as shown below:
+
 
