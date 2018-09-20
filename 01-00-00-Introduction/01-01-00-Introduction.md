@@ -15,7 +15,7 @@ capabilities. The System has been enriched of functionality that
 ensures the security of stored information, verification of users,
 data correlation and visualization, alerting and reporting.
 
-![](media/media/image2.png) 
+![](https://git.emca.pl/2.X/op5_log_analytics_2x_doc/raw/master/media/media/image2.png) 
 
 OP5 Log Analytics project was created to centralize events of all IT
 areas in the organization. We focused on creating a tool that
