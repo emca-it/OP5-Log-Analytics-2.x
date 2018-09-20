@@ -1,6 +1,6 @@
 ### Screen content for the Trend algorithm
 
-![](/./media/media/image68_js.png)
+![](/media/media/image68_js.png)
 
 Description of controls:
 
@@ -30,7 +30,7 @@ Description of controls:
 - **Scheduler** - a tag if the rule should be run according to the plan
     for the scheduler. If selected, additional fields will appear;
 
-![](/./media/media/image67.png)
+![](/media/media/image67.png)
 
 - **Prediction cycle** - plan definition for the scheduler, i.e. the
     cycle in which the prediction rule is run (e.g. once a day, every

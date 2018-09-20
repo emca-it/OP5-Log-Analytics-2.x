@@ -10,4 +10,4 @@ the name of the current object in the left panel. Clicking on the
 object from the expanded list of previously create index patterns,
 will change the searched index.
 
-![](/./media/media/image6.png)
+![](/media/media/image6.png)

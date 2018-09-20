@@ -12,7 +12,7 @@ For proper operation OP5 Log Analytics requires starting the following system se
   	
 	`systemctl status elasticsearch.service`
 
-![](/./media/media/image86.PNG)
+![](/media/media/image86.PNG)
 
 - kibana.service - 
   we can run it with a command:
@@ -23,7 +23,7 @@ For proper operation OP5 Log Analytics requires starting the following system se
 
 	`systemctl status kibana.service`
 
-![](/./media/media/image87.PNG)
+![](/media/media/image87.PNG)
 
 - logstash.service - 
    we can run it with a command:
@@ -34,4 +34,4 @@ For proper operation OP5 Log Analytics requires starting the following system se
 
    	`systemctl status logstash.service`
 
-![](/./media/media/image88.PNG)
+![](/media/media/image88.PNG)

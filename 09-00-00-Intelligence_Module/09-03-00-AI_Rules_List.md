@@ -1,13 +1,13 @@
 AI Rules List
 -------------
 
-![](/./media/media/image70.png)
+![](/media/media/image70.png)
 
 Column description:
 - **Status**:
-    - ![](/./media/media/image71.png)- the process is being processed (the pid of the process is in brackets)
-    - ![](/./media/media/image72.png) - process completed correctly
-    - ![](/./media/media/image73.png) - the process ended with an error
+    - ![](/media/media/image71.png)- the process is being processed (the pid of the process is in brackets)
+    - ![](/media/media/image72.png) - process completed correctly
+    - ![](/media/media/image73.png) - the process ended with an error
 - **Name** - the name of the rule
 - **Search** - the search on which the rule was run
 - **Method** - an algorithm used in the AI rule

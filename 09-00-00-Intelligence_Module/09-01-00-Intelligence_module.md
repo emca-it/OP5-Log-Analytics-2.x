@@ -20,10 +20,10 @@ To access of the Intelligence module, click the tile icon
 from the main meu bar and then go to the „Intelligence" icon (To go
 back, click to the „Search" icon).
 
-![](/./media/media/image38_js4.png)
+![](/media/media/image38_js4.png)
 
 There are 4 screens available in the
-module:![](/./media/media/image64.png)
+module:![](/media/media/image64.png)
 
 - **Create AI Rule** - the screen allows you to create artificial
      intelligence rules and run them in scheduler mode or immediately

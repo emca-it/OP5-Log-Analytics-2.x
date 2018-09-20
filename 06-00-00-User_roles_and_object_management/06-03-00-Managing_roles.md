@@ -4,7 +4,7 @@ Create, modify and delete a role (Create Role), (Role List)
 In the Create Role tab we can define a new role with permissions that 
 we assign to a pattern or several index patterns.
 
-![](/./media/media/image54_js.png)
+![](/media/media/image54_js.png)
 
 In example, we use the syslog2\* index pattern. We give this name
 in the Paths field. We can provide one or more index patterns, their
@@ -22,7 +22,7 @@ In the role field, enter the unique name of the role. We confirm addition
 of a new role with the Submit button. To see if a new role has been added, 
 go to the net Role List tab.
 
-![](/./media/media/image55_js.png)
+![](/media/media/image55_js.png)
 
 As we can see, the new role has been added to the list. With the
 Delete button we have the option of deleting it, while under the

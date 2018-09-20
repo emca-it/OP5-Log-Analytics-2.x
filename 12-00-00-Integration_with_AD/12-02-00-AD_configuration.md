@@ -39,7 +39,7 @@ Below is an example of how an entry for 2 domains should look
 like. (It is important to take the interpreter to read these values
 ​​correctly).
 
-![](/./media/media/image77.png)
+![](/media/media/image77.png)
 
 After completing the LDAP section entry in the `elasticsearch.yml` file,
 save the changes and restart the service with the command:

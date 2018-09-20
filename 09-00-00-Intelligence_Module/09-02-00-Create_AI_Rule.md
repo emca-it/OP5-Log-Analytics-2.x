@@ -6,7 +6,7 @@ The screen allows to defining the rules of artificial intelligence
 based on one of the available algorithms (a detailed description of
 the available algorithms is available in a separate document).
 
-![](/./media/media/image65_js.png)
+![](/media/media/image65_js.png)
 
 Description of the controls available on the fixed part of screen:
 

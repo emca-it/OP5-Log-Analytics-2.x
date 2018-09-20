@@ -1,6 +1,6 @@
 ### The fixed part of the screen
 
-![](/./media/media/image65.png)
+![](/media/media/image65.png)
 
 Description of the controls available on the fixed part of screen:
 

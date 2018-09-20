@@ -17,7 +17,7 @@ In this step, a Kerberos Principal representing Elasticsearch auth plugin is cre
 
 Create User in AD. Set "Password never expires" and "Other encryption options" as shown below:
 
-![](/./media/media/image107_js.png)
+![](/media/media/image107_js.png)
 
 ### 2. Define Service Principal Name (SPN) and Create a Keytab file for it.
 Use the following command to create the keytab file and SPN:
@@ -89,17 +89,17 @@ Client (Browser) Configuration for IE.
 
 1. Goto `Internet Options` from `Tools` menu and click on `Security` Tab:
 
-![](/./media/media/image108.png)
+![](/media/media/image108.png)
 
 2. Select `Local intranet`, click on `Site` -> `Advanced` -> `Add` the url:
 
-![](/./media/media/image109_js.png)
+![](/media/media/image109_js.png)
 
 After adding the site click close.
 
 3. Click on custom level and select the option as shown below:
 
-![](/./media/media/image110_js.png)
+![](/media/media/image110_js.png)
 
 
 Client (Browser) Configuration for Chrome.
@@ -112,4 +112,4 @@ Client (Browser) Configuration for Firefox.
 
 Update the following config:
 
-![](/./media/media/image111_js.png)
+![](/media/media/image111_js.png)

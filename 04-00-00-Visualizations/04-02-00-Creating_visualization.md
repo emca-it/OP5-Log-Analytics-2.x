@@ -2,14 +2,14 @@
 
 To create visualization, go to the „Visualize" tab from the main menu.
 
-![](/./media/media/image89.PNG)
+![](/media/media/image89.PNG)
 
 A new page will be appearing where you can create or load
 visualization.
 To load previously created and saved visualization, you
 must select it from the list.
 
-![](/./media/media/image90.PNG)
+![](/media/media/image90.PNG)
 
 In order to create a new visualization,
 you should choose the preferred method of data presentation. Next,

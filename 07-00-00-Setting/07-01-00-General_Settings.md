@@ -4,7 +4,7 @@ Settings
 The Settings tab is used to set the audit on different activates or events 
 and consists of several fields:
 
-![](/./media/media/image60_js.png)
+![](/media/media/image60_js.png)
 
 -   Time Out in seconds field - this field defines the time after how
     many minutes the application will automatically log you off

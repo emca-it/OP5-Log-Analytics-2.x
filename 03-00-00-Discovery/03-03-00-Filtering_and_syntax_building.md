@@ -5,7 +5,7 @@ We use the query bar to search interesting events. For example, after
 entering the word „error", all events that contain the word will be
 displayed, additional highlighting them with an orange background.
 
-![](/./media/media/image15_js.png)
+![](/media/media/image15_js.png)
 
 Fields can be used in the similar way by defining conditions that
 interesting us. The syntax of such queries is:

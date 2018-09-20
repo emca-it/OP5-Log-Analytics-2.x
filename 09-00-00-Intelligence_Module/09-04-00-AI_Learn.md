@@ -1,7 +1,7 @@
 AI Learn
 ----
 
-![](/./media/media/image74.png)
+![](/media/media/image74.png)
 
 Description of controls:
 

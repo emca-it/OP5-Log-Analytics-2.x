@@ -7,7 +7,7 @@ After selecting the index and the method of data presentation, you can enter
 the editing mode. This will open a new window with empty
 visualization.
 
-![](/./media/media/image29_js.png)
+![](/media/media/image29_js.png)
 
 At the very top there is a bar of queries that cat be edited
 throughout the creation of the visualization. It work in the same way
@@ -33,7 +33,7 @@ Some of the options for „Area Chart" are:
 
    **Smooth Lines** - is used to smooth the graph line.
 
-![](/./media/media/image30.png)
+![](/media/media/image30.png)
 
 -   **Current time marker** -- places a vertical line on the graph that
     determines the current time.
@@ -47,12 +47,12 @@ Some of the options for „Area Chart" are:
 -  **Show Tooltip** -- option for displaying the information window
     under the mouse cursor, after pointing to the point on the graph.
    
-   ![](/./media/media/image31.png)
+   ![](/media/media/image31.png)
    
 To save the visualization, click the icon
-![](/./media/media/image16.png) next to the query bar, give it a name
+![](/media/media/image16.png) next to the query bar, give it a name
 and click the button
-![](/./media/media/image17.png). To load the visualization, go to the
+![](/media/media/image17.png). To load the visualization, go to the
 „Settings" tab from the main menu at the top of the page, then from
 the submenu select „Objects" and finally the "Visualizations" tab.
 From this place, we can also go into advanced editing mode, export and

@@ -4,7 +4,7 @@ License (License Info)
 The License Information tab consists of several non-editable
 information fields.
 
-![](/./media/media/image61_js.png)
+![](/media/media/image61_js.png)
 
 These fields contain information:
 - Company field, who owns the license - in this case EMCA S.A.
