@@ -4,7 +4,9 @@ Naming convention
 Elasticsearch require litte configuration before before goint into work.
 The following settings must be considered before going to production:
 - **path.data** and **path.logs** - default locations of these files are:
-`/var/lib/elasticsearch` and `/var/log/elasticsearch`.
+
+	`/var/lib/elasticsearch` and `/var/log/elasticsearch`.
+
 - **cluster.name** - A node can only join a cluster when it shares its 
 `cluster.name` with all the other nodes in the cluster. The default name 
 is "elasticsearch", but you should change it to an appropriate name which 

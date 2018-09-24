@@ -7,10 +7,12 @@ For purposes of examples, communication with the Elasticsearch API will be carri
 application.
 
 Program syntax:
+
     *`	# curl -X<metoda> -u login:password '<adres_ip_elasticsearch>:<port>'*\
     *`	# curl -XGET -u login:password '127.0.0.1:9200'`*
     
 Available methods:
+
 - PUT - sends data to the server;
 - POST - sends a request to the server for a change;
 - DELETE - deletes the index / document;
@@ -18,6 +20,7 @@ Available methods:
 - HEAD - is used to check if the index / document exists.
 
 Avilable APIs by roles:
+
 - Index API - manages indexes;
 - Document API - manges documnets;
 - Cluster API - manage the cluster;
