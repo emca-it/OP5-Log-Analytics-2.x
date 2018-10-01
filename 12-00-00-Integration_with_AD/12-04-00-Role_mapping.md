@@ -4,8 +4,8 @@ Role mapping.
 In the `/etc/elasticsearch/elasticsearch.yml` configuration file you can find
 a section for configuring role mapping:
 
-`# LDAP ROLE MAPPING FILE`\
-`# rolemapping.file.path: /etc/elasticsearch/role-mappings.yml`
+        # LDAP ROLE MAPPING FILE
+        # rolemapping.file.path: /etc/elasticsearch/role-mappings.yml
 
 This variable points to the file `/etc/elasticsearch/role-mappings.yml`
 Below is the sample content for this file:
