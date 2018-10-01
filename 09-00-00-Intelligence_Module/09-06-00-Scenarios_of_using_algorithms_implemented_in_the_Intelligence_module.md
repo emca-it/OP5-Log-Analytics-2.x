@@ -17,14 +17,14 @@ Scenarios of using algorithms implemented in the Intelligence module
     g.  From this moment the algorithm is visible in the Create AI Rule
         tab.
 
-2.  Starting the MLP network algorithm:
+1.  Starting the MLP network algorithm:
 
     a.  Go to the Create AI Rule tab and create rules,\
     b.  Select the previously saved model of the learned network,\
     c.  Specify parameters visible on the screen (specific to MLP),\
     d.  Press the Run button.
 
-3.  Starting regression algorithm:
+1.  Starting regression algorithm:
 
     a.  Go to the Create AI Rule tab and create rules,\
     b.  We choose AI Rule, e.g. Simple Moving Average, Linear Regression
@@ -33,7 +33,7 @@ Scenarios of using algorithms implemented in the Intelligence module
     d.  Set the parameters of the rule ( specific to regression),\
     e.  Press the Run button.
 
-4.  Management of available rules:
+1.  Management of available rules:
 
     a.  Go to the AI Rules List tab,\
     b.  A list of AI rules available for our role is displayed,\
