@@ -4,13 +4,13 @@ To install and configure OP5 Log Analytics on the CentOS Linux system you should
 - copy archive OP5 Log Analytics tar.bz2 to the hosted server;
 - extract archive OP5 Log Analytics tar.bz2 contain application:
 
-`cd /root/`\
-`tar xvfj archive.tar.bz2`
+        cd /root/
+        tar xvfj archive.tar.bz2
 
 - go to the application directory and run installation script as a root user:
 
-`cd /roo/insatll/`\
-`./install.sh`
+        cd /roo/insatll/
+        ./install.sh
 
 During instalation you will be ask about following tasks:
 - add firewall exeption on ports 22(ssh), 5044, 5514 (Logstash), 5601 (Kibana), 9200 (Elastisearch), 9300 (ES cross-JVM);
@@ -32,18 +32,19 @@ Optionally you can:
 - configure integration with Active Directory and SSO servers. You can find necessary information in [12-00-00-Integration_with_AD](/12-00-00-Integration_with_AD/12-00-00-Integration_with_AD.md) and [13-00-00-Windows-SSO](/13-00-00-Windows-SSO/13-00-00-Windows-SSO.md);
 - install and conigure monitoring with Marver:
 
-	`cd /usr/share/elasticsearch`\
-	`sudo bin/plugin install license`\
-	`sudo bin/plugin install marvel-agent`\
-	`systemctl restart elasticsearch`
+        	cd /usr/share/elasticsearch
+        	sudo bin/plugin install license
+        	sudo bin/plugin install marvel-agent
+        	systemctl restart elasticsearch
 
 - enable predictive functionality in Intelligence module:
 
-	`curl -XPOST 'http://localhost:9200/_aliases' -d '{`\
-     		`"actions" : [`\
-         	`{ "add" : { "index" : "intelligence", "alias" : "predictive" } },`\
-        	 `{ "add" : { "index" : "perfdata-linux", "alias" : "predictive" } }`\
-     		`]}'`
+    	curl -XPOST 'http://localhost:9200/_aliases' -d '{
+         		"actions" : [
+             	{ "add" : { "index" : "intelligence", "alias" : "predictive" } },
+            	{ "add" : { "index" : "perfdata-linux", "alias" : "predictive" } }
+         		]}'
+     		
 - generate writeback index for Alert service:
 	
-	 *`/opt/alert/bin/elastalert-create-index --config /opt/alert/config.yaml`*
+	        /opt/alert/bin/elastalert-create-index --config /opt/alert/config.yaml
